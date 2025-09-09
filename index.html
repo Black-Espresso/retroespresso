@@ -1,0 +1,95 @@
+<!-- Developed by Novaur. -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Retroespresso</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="./resources/style.css">
+<link rel="stylesheet" media="all" href="./resources/theme.css">
+
+<!-- Primary Meta Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="./resources/RE.ico">
+<meta name="title" content="Retroespresso" />
+<meta name="description" content="Coffee enjoyers, nostalgists, and others united to make indie entertainment & tech." />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://retroespresso.cafe" />
+<meta property="og:title" content="Retroespresso" />
+<meta property="og:description" content="Coffee enjoyers, nostalgists, and others united to make indie entertainment & tech." />
+<meta property="og:image" content="./resources/REB.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://retroespresso.cafe" />
+<meta property="twitter:title" content="Retroespresso" />
+<meta property="twitter:description" content="Coffee enjoyers, nostalgists, and others united to make indie entertainment & tech." />
+<meta property="twitter:image" content="./resources/REB.png" />
+</head>
+<body class="crt">
+    <nav role="navigation">
+      <div id="menuToggle">
+        
+        <input type="checkbox" id="menuCheckbox" />
+        
+        
+        <span></span>
+        <span></span>
+        <span></span>
+        
+        
+        <ul id="menu">
+          
+          <li>
+            <a href="./index.html">
+              <label for="menuCheckbox" onclick="this.parentNode.click();"><p>Home</p></label>
+            </a>
+          </li>
+          <li>
+            <a href="./info.html">
+              <label for="menuCheckbox" onclick="this.parentNode.click();"><p>About</p></label>
+            </a>
+          </li>
+          
+          <li><label for="menuCheckbox"><a href="https://youtube.com/@black.espresso"><p>Our YouTube</p></a></label></li>
+          <li><label for="menuCheckbox"><a href="./productions.html"><p>Our Projects</p></a></label></li>
+          
+          <li>
+            <a href="#" target="_blank" id="getmail"><p>Contact Us</p></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      <main>
+      <script>
+        var getmaily = document.getElementById('getmail');
+        getmaily.onclick = givemail;
+
+        function givemail() {
+          alert("Feel free to contact us via imglitchieeee@gmail.com!\n\nPlease do not send anything harmful, mean, or unimportant! Thanks! :)");
+          return false;
+        }
+
+        var products = document.getElementById('productions');
+        products.onclick = productions;
+
+        function productions() {
+          alert("A page of a list of our productions will be added soon! Stay tuned :)");
+          // window.location.href="https://google.com/";
+          return false;
+        } 
+      </script>
+
+      <div id="main">
+           <img style="margin: auto auto 30px; height: auto; min-width: 15%; max-width: 95%;" class="center2" src="./resources/REB.png" />
+        <h1 class="banner-head">WELCOME to the Retroespresso website!</h1>
+        <div style="margin-inline: auto;">
+            <h3 class="center" style="right: 85px;">We are coffee enjoyers, nostalgists, and others united to make indie entertainment & tech!</h3>
+            <br>
+            <a href="./productions.html" id="nova-teaser"><p style="font-size: 15px">Check out our current projects!</p></a>
+        </div>
+     </div>
+</main>
+</body>
+</html>

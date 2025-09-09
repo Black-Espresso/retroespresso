@@ -1,0 +1,126 @@
+<!-- Developed by Novaur. :) -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+<!-- Primary Meta Tags -->
+<title>Retroespresso</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" href="./resources/style.css">
+<link rel="stylesheet" media="all" href="./resources/theme.css">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://retroespresso.cafe" />
+<meta property="og:title" content="Retroespresso" />
+<meta property="og:description" content="Coffee enjoyers, nostalgists, and others united to make indie entertainment & tech." />
+<meta property="og:image" content="./resources/REB.png" />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://retroespresso.cafe" />
+<meta property="twitter:title" content="Retroespresso" />
+<meta property="twitter:description" content="Coffee enjoyers, nostalgists, and others united to make indie entertainment & tech." />
+<meta property="twitter:image" content="./resources/REB.png" />
+</head>
+<body class="crt">
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" id="menuCheckbox" />
+          
+          <span></span>
+          <span></span>
+          <span></span>
+          
+          <ul id="menu">
+            <li>
+              <a href="./index.html">
+                <label for="menuCheckbox" onclick="this.parentNode.click();"><p>Home</p></label>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <label for="menuCheckbox" onclick="this.parentNode.click();"><p>About</p></label>
+              </a>
+            </li>
+            
+            <li><label for="menuCheckbox"><a href="https://youtube.com/@black.espresso"><p>Our YouTube</p></a></label></li>
+            <li><label for="menuCheckbox"><a href="./productions.html"><p>Our Projects</p></a></label></li>
+            
+            <li>
+              <a href="#" target="_blank" id="getmail"><p>Contact Us</p></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <script>
+        var getmaily = document.getElementById('getmail');
+        getmaily.onclick = givemail;
+
+        function givemail() {
+          alert("Feel free to contact us via imglitchieeee@gmail.com!\n\nPlease do not send anything harmful, mean, or unimportant! Thanks! :)");
+          return false;
+        }
+
+        var products = document.getElementById('productions');
+        products.onclick = productions;
+
+        function productions() {
+          alert("A page of a list of our productions will be added soon! Stay tuned :)");
+          // window.location.href="https://google.com/";
+          return false;
+        } 
+    </script>
+    <main>
+        <img class="center2" src="./resources/RE.png" height="100" width="100">
+        <h1 class="center" id="welcome">Info</h1>
+        <br>
+        <br>
+        <div style="margin-inline: auto">
+            <p class="center">
+            Retroespresso is a private, entertainment organization of young friends, coffee enjoyers, and nostalgists.
+            <br>
+            <br>
+            We aim to protect and respect the rights of all people, allow as much free expression & creative freedom as possible, and prioritize great service and treatment of all people, no matter who they may be. Just like the good 'ol days when everything seemed great.
+            <br>
+            <br>
+            As of now, Retroespresso is only just getting started. However, we can't wait to show the world our ambitious projects!
+            </p>
+        </div>
+        <br>
+        <br>
+        <h2 class="center">
+        <u><p>So bottoms up, but be careful, it's hot!!</p></u>
+        </h2>
+
+        <br>
+        <br>
+
+        <style>
+            a#thx {
+                display: block;
+                text-align: center;
+                width: 150px;
+                margin: 0px auto;
+                padding: 20px;
+                color: white;
+                font-family: Supercomputer;
+                text-transform: uppercase;
+                border: 2px solid hsl(105, 100%, 50%);
+                background-color: hwb(108 12% 0% / 0.357);
+                text-decoration: none;
+                border-radius: 10px;
+            }
+        </style>
+
+        <a href="./index.html" id="thx">OK!</a>
+
+        <br>
+        <br>
+        <footer>
+        <h3 class="center">(C) 2025 <a style="color: white; text-decoration: none;" href="">Retroespresso</a></h3>
+        </footer>
+    </main>
+</body>
+</html>
